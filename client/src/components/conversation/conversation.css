@@ -1,0 +1,19 @@
+.coversation {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.coversation:hover {
+  background-color: #f1f1f1;
+}
+.conversationImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.conversationName {
+  font-weight: 500;
+}
